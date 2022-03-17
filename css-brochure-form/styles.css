@@ -1,6 +1,6 @@
 div.container {
   text-align: center;
-  width: 50%;
+  width: 20%;
   margin: auto;
 }
 
@@ -11,7 +11,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 11px;
-  color: rgb(255 81 0);
+  color: rgb(236 39 39 / 82.9%);
   letter-spacing: 0.5px;
 }
 
@@ -47,7 +47,7 @@ p.place {
 }
 
 p.hire-time {
-  font-size: 8px;
+  font-size: 45%;
   margin: 0;
   font-family: "Brandon Grotesque", sans-serif;
   font-weight: 500;
@@ -77,12 +77,12 @@ div.select-container {
 
 select {
   font-family: "Brandon Grotesque", sans-serif;
-  font-size: 9px;
+  font-size: 8px;
   margin: 3px;
   width: 100%;
   background-color: rgb(241 240 240);
   border-radius: 4px;
-  padding: 1px;
+  padding: 2px;
   border-color: rgb(200 203 206);
 }
 
@@ -91,10 +91,11 @@ button {
   border-style: hidden;
   font-family: "Brandon Grotesque", sans-serif;
   color: white;
-  background-color: rgb(255 81 0);
+  background-color: rgb(236 39 39 / 82.9%);
   text-transform: uppercase;
   font-size: 8px;
-  padding: 2px 10px;
+  font-weight: 500;
+  padding: 3px 10px;
 }
 
 div.button-container {
