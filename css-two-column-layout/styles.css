@@ -1,0 +1,93 @@
+/* for main container */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* for button and title */
+.column-full {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.column-halves {
+  width: 50%;
+}
+
+/* for images */
+.column-one-third {
+  width: 33%;
+  text-align: right;
+  align-items: baseline;
+}
+
+.column-two-thirds {
+  width: 66%;
+}
+
+button {
+  background-color: white;
+  color: rgb(218 62 5 / 89%);
+  border-color: rgb(218 62 5 / 89%);
+  border-radius: 2px;
+  margin-bottom: 40px;
+  padding: 10px 40px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.title {
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* for columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: rgb(72 77 82);
+  font-size: 12px;
+}
+
+p.header {
+  text-align: center;
+  width: 60%;
+  margin: 0;
+}
+
+/* for paragraph next to images */
+p.halves {
+  width: 77%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: medium;
+  font-size: 14px;
+  width: 70%;
+}
+
+img {
+  width: 60%;
+}
