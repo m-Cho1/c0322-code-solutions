@@ -77,16 +77,19 @@ button {
   border: 0;
 }
 
-.column-button-one {
+.column-button-heading {
   padding: 12px 15px;
 }
 
 .button-get-started {
   padding: 20px 60px;
+  font-size: 20px;
+}
+
+button.position { /* button on the img */
   position: absolute;
   left: 218px;
   bottom: 20px;
-  font-size: 20px;
 }
 
 .column-text-container {
@@ -138,13 +141,10 @@ h1 {
   height: 50%;
 }
 
-h3 {
+h3 { /* h3 utility container */
   font-family: "Tiempos Headline", sans-serif;
   font-size: 30px;
-  font-weight: 500;
-}
-
-h3.margin-bottom {
+  font-weight: 550;
   margin-bottom: 0;
 }
 
@@ -166,4 +166,19 @@ h3.margin-bottom {
 
 li.place { /* in row 3 */
   line-height: 50px;
+}
+
+.fourth {
+  padding-left: 130px;
+  padding-right: 130px;
+  height: 200px;
+  color: #666363;
+}
+
+.column-half { /* columns in row 4 */
+  width: 50%;
+}
+
+.button-container {
+  text-align: end;
 }
