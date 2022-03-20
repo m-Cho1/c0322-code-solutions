@@ -4,15 +4,14 @@
 }
 
 .display {
-  /* display: flex; */
   padding-top: 10px;
 }
 
 .row { /* utility container for rows */
   width: 100%;
   display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 130px;
+  padding-right: 130px;
   padding-bottom: 5px;
   align-items: center;
 }
@@ -30,15 +29,16 @@
 }
 
 .second { /* second row */
-  height: 100%;
+  height: 850px;
 }
 
 .logo { /* first row logo */
-  width: 118px;
+  width: 130px;
 }
 
 .hero { /* for second row img */
   width: 100%;
+  height: 100%;
   object-fit: contain;
   position: relative;
 }
@@ -46,7 +46,8 @@
 .column-hero-img {
   display: flex;
   justify-content: center;
-  height: 100%;
+
+  /* height: 100%; */
 }
 
 li {
@@ -73,12 +74,35 @@ button {
 }
 
 .button-get-started {
-  padding: 10px 30px;
+  padding: 20px 60px;
   position: absolute;
+  left: 218px;
+  bottom: 20px;
+  font-size: 20px;
 }
 
 .column-text {
   position: absolute;
-  top: 30%;
-  width: 20%;
+  top: 157px;
+  left: 195px;
+  width: 40%;
+  color: white;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-size: 50px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.text-in-img {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  font-size: 18px;
+  padding-left: 20px;
 }
