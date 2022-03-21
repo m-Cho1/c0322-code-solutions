@@ -221,3 +221,19 @@ li.place { /* in row 3 */
   font-size: 20px;
   line-height: 40px;
 }
+
+.last {
+  padding-left: 130px;
+  padding-right: 130px;
+  height: 120px;
+  color: #666363;
+}
+
+.last-row { /* for display li in inline */
+  display: inline;
+  margin-right: 40px;
+}
+
+.last-padding {
+  padding-left: 0;
+}
