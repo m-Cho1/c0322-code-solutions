@@ -182,3 +182,42 @@ li.place { /* in row 3 */
 .button-container {
   text-align: end;
 }
+
+.fifth {
+  height: 400px;
+  background: rgb(48 48 48 / 82%);
+  padding-right: 130px;
+  padding-left: 130px;
+  color: white;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.logo-white {
+  align-items: center;
+}
+
+.under-logo { /* row5 contact info */
+  padding-left: 0;
+}
+
+.row-5-company {
+  margin-top: 0;
+}
+
+.column-one-third {
+  padding-top: 100px;
+}
+
+.half-company {
+  margin-left: 150px;
+}
+
+.half-product {
+  margin-right: 150px;
+}
+
+.text-size { /* for row 5 company and product */
+  font-size: 20px;
+  line-height: 40px;
+}
