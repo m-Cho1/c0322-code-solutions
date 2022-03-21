@@ -133,6 +133,9 @@ h1 {
 
 .column-full {
   width: 100%;
+}
+
+.col-ful-size {
   flex-grow: 2;
 }
 
