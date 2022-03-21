@@ -6,13 +6,15 @@
 
 /* for button and title */
 .column-full {
-  display: flex;
+  width: 100%;
+
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 20px; */
 }
 
-.column-halves {
+.column-half {
   width: 50%;
 }
 
@@ -39,9 +41,16 @@ button {
   font-weight: bold;
 }
 
+.button-container {
+  width: 100%;
+}
+
 .title {
   flex-direction: column;
   justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 /* for columns */
@@ -67,7 +76,7 @@ p.header {
 }
 
 /* for paragraph next to images */
-p.halves {
+p.width {
   width: 77%;
 }
 
