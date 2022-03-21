@@ -27,22 +27,28 @@ body {
 }
 
 .column-full {
-  display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
 .column-third {
+  flex-basis: 50%;
+}
+
+.col-third-img {
   display: flex;
   flex-direction: column;
-  flex-basis: 50%;
   align-items: center;
+}
+
+header {
+  text-align: center;
 }
 
 h1 {
   color: white;
   font-family: sans-serif;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 img {
