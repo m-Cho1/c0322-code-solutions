@@ -48,20 +48,18 @@ button {
   justify-content: center;
 }
 
-.display-flex {
-  display: flex;
-}
-
 .title {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  display: flex;
 }
 
 /* for columns */
 .row {
   flex-wrap: wrap;
   padding-top: 15px;
+  display: flex;
 }
 
 p {
