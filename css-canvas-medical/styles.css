@@ -14,10 +14,13 @@
   align-items: center;
 }
 
-.heading {
+.border-line {
+  border-bottom: solid 1px rgb(206 206 206);
+}
+
+.padding-left-right {
   padding-left: 130px;
   padding-right: 130px;
-  border-bottom: solid 1px rgb(206 206 206);
 }
 
 .column-logo {
@@ -29,8 +32,6 @@
 }
 
 .second { /* second row */
-  padding-left: 130px;
-  padding-right: 130px;
   height: 850px;
 }
 
@@ -61,23 +62,24 @@
 li.navigate {
   display: inline;
   padding: 25px;
-  font-family: Avenir, sans-serif;
-  font-style: normal;
   font-weight: 500;
   color: rgb(160 160 160);
 }
 
-button {
-  background-color: rgb(29 66 112);
+.font-family-avenir {
   font-family: Avenir, sans-serif;
   font-style: normal;
+}
+
+button {
+  background-color: rgb(29 66 112);
   font-weight: 500;
   color: white;
   border-radius: 5px;
   border: 0;
 }
 
-.column-button-heading {
+.row-1-button-padding {
   padding: 12px 15px;
 }
 
@@ -111,8 +113,6 @@ h1 {
 }
 
 .text { /* for utility container */
-  font-family: Avenir, sans-serif;
-  font-style: normal;
   font-weight: 300;
   line-height: 30px;
 }
@@ -122,13 +122,12 @@ h1 {
   padding-left: 20px;
 }
 
-.third { /* for third row */
+.third-semantic { /* for third row */
   height: 500px;
   justify-content: center;
   flex-flow: row wrap;
   background: #d3d3d321;
   color: #666363;
-  border-bottom: solid 1px rgb(206 206 206);
 }
 
 .column-full {
@@ -171,9 +170,7 @@ li.place { /* in row 3 */
   line-height: 50px;
 }
 
-.fourth {
-  padding-left: 130px;
-  padding-right: 130px;
+.row-fourth {
   height: 200px;
   color: #666363;
 }
@@ -186,11 +183,9 @@ li.place { /* in row 3 */
   text-align: end;
 }
 
-.fifth {
+.row-fifth {
   height: 400px;
   background: rgb(48 48 48 / 82%);
-  padding-right: 130px;
-  padding-left: 130px;
   color: white;
   justify-content: space-between;
   align-items: flex-start;
@@ -226,8 +221,6 @@ li.place { /* in row 3 */
 }
 
 .last {
-  padding-left: 130px;
-  padding-right: 130px;
   height: 120px;
   color: #666363;
 }
@@ -237,6 +230,6 @@ li.place { /* in row 3 */
   margin-right: 40px;
 }
 
-.last-padding {
+.last-ul-padding {
   padding-left: 0;
 }
