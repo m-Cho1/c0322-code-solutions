@@ -1,0 +1,37 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.font-family {
+  font-family: Barlow, sans-serif;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.column-one-fourth {
+  width: 25%;
+  padding: 10px;
+}
+
+.row {
+  width: 100%;
+}
+
+.img-width {
+  width: 100%;
+}
+
+.img-width-25 {
+  width: 25%;
+}
+
+.text-align {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
