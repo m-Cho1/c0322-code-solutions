@@ -9,11 +9,11 @@ body {
 }
 
 .row {
-  width: 100%;
+  display: flex;
 }
 
-.display-flex {
-  display: flex;
+.column-full {
+  width: 100%;
 }
 
 h1 {
