@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS Four Column Layout</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row"> <!--first row-->
+      <div class="column-full">
+        <h1 class="font-family text-align">How It Works</h1>
+      </div>
+    </div>
+
+    <!--second row-->
+    <div class="row display-flex">
+      <!--first column-->
+      <div class="column-one-fourth">
+        <div class="width-100">
+          <img src="images/screen-1.png" alt="image1" class="img-width">
+        </div>
+        <!--small img-->
+        <div class="text-align">
+          <img src="images/switch-icon.png" alt="image of switch" class="img-width img-width-25">
+        </div>
+        <div>
+          <h3 class="font-family text-align">App Switching</h3>
+        </div>
+        <div>
+          <p class="text-align font-family">Toggles all your apps on and off.</p>
+        </div>
+      </div>
+      <div class="column-one-fourth">
+        <!--second column-->
+        <div class="width-100">
+          <img src="images/screen-2.png" alt="image2" class="img-width">
+        </div>
+        <div class="text-align">
+          <!--small img-->
+          <img src="images/filter-icon.png" alt="image of switch" class="img-width img-width-25">
+        </div>
+        <div>
+          <h3 class="font-family text-align">Trip Filtering</h3>
+        </div>
+        <div>
+          <p class="text-align font-family">Evaluates your trip requests.</p>
+        </div>
+      </div>
+      <div class="column-one-fourth">
+        <!--third column-->
+        <div class="width-100">
+          <img src="images/screen-3.png" alt="image1" class="img-width">
+        </div>
+        <div class="text-align">
+          <!--small img-->
+          <img src="images/slider-icon.png" alt="image of switch" class="img-width img-width-25">
+        </div>
+        <div>
+          <h3 class="font-family text-align">Service Filters</h3>
+        </div>
+        <div>
+          <p class="text-align font-family">Accepts only your ideal trips.</p>
+        </div>
+      </div>
+      <div class="column-one-fourth">
+        <!--fourth column-->
+        <div class="width-100">
+          <img src="images/screen-4.png" alt="image1" class="img-width">
+        </div>
+        <div class="text-align">
+          <!--small img-->
+          <img src="images/bars-icon.png" alt="image of switch" class="img-width img-width-25">
+        </div>
+        <div>
+          <h3 class="font-family text-align">Stats + Mileage</h3>
+        </div>
+        <div>
+          <p class="text-align font-family">Tracks your trips across all apps.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
