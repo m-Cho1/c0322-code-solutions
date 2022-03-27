@@ -10,12 +10,15 @@ body {
 .row {
   width: 50%;
   display: flex;
+}
+
+.style-row {
   align-items: baseline;
   justify-content: center;
   padding-bottom: 5px;
 }
 
-.height {
+.padding {
   padding: 50px;
 }
 
@@ -30,11 +33,11 @@ body {
   width: 100%;
 }
 
-.column-third {
+.flex-basis-column {
   flex-basis: 50%;
 }
 
-.col-third-img {
+.display-img {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,14 +59,17 @@ img {
   max-height: 50px;
 }
 
-.circle {
-  justify-content: center;
+.style-circle {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-color: white;
-  align-items: center;
+}
+
+.display-circle {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 p {
