@@ -3,43 +3,43 @@
   margin: auto;
 }
 
-.display {
-  padding-top: 10px;
-}
-
 .row { /* utility container for rows */
   width: 100%;
   display: flex;
-  padding-bottom: 5px;
   align-items: center;
+}
+
+.padding { /* for rows */
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 5px;
 }
 
 .border-line {
   border-bottom: solid 1px rgb(206 206 206);
 }
 
-.padding-left-right {
-  padding-left: 130px;
-  padding-right: 130px;
-}
-
-.column-logo {
+.column-flex-grow-1 {
   flex-grow: 1;
 }
 
-.column-navigate {
+.column-direction {
   flex-direction: row;
 }
 
-.second { /* second row */
+.height-second-row { /* second row */
   height: 850px;
 }
 
-.logo { /* first row logo */
-  width: 130px;
+.width-logo-top { /* first row logo */
+  width: 180px;
 }
 
-.hero { /* for second row img */
+.width-logo-bottom {
+  width: 140px;
+}
+
+.style-img { /* for second row img */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -47,23 +47,36 @@
   position: relative;
 }
 
-.column-hero-container {
+.width-40 {
+  width: 40%;
+}
+
+.height-img-overlay { /* for img and overlay */
+  height: 650px;
+}
+
+.display-img {
   display: flex;
   justify-content: center;
 }
 
 .overlay {
   position: absolute;
-  width: 1258px;
-  height: 708.3px;
+  width: 83%;
   background: #00000047;
 }
 
-li.navigate {
-  display: inline;
-  padding: 25px;
-  font-weight: 500;
+.display-flex {
+  display: flex;
+}
+
+.font-style-navigate {
   color: rgb(160 160 160);
+  font-weight: 500;
+}
+
+.padding-navigate {
+  padding: 25px;
 }
 
 .font-family-avenir {
@@ -79,11 +92,15 @@ button {
   border: 0;
 }
 
-.row-1-button-padding {
-  padding: 12px 15px;
+.padding-header-button {
+  padding: 15px 20px;
 }
 
-.button-get-started {
+.font-size-contactus {
+  font-size: 16px;
+}
+
+.button-get-started-style {
   padding: 20px 60px;
   font-size: 20px;
 }
@@ -91,14 +108,16 @@ button {
 button.position { /* button on the img */
   position: absolute;
   left: 218px;
-  bottom: 20px;
+  bottom: -30px;
 }
 
-.column-text-container {
+.position-text {
   position: absolute;
-  top: 157px;
+  bottom: 70px;
   left: 195px;
-  width: 40%;
+}
+
+.color-text {
   color: white;
 }
 
@@ -112,17 +131,20 @@ h1 {
   font-weight: 500;
 }
 
-.text { /* for utility container */
+.text-weight-height { /* for utility container */
   font-weight: 300;
   line-height: 30px;
 }
 
-.text-in-img {
-  font-size: 18px;
+.padding-left-txt-in-img {
   padding-left: 20px;
 }
 
-.third-semantic { /* for third row */
+.font-size-18 {
+  font-size: 18px;
+}
+
+.style-row-third { /* for third row */
   height: 500px;
   justify-content: center;
   flex-flow: row wrap;
@@ -134,12 +156,15 @@ h1 {
   width: 100%;
 }
 
-.col-ful-size {
+.flex-grow-2 {
   flex-grow: 2;
 }
 
-.column-halves {
+.column-half {
   width: 50%;
+}
+
+.height-half {
   height: 50%;
 }
 
@@ -150,40 +175,37 @@ h3 { /* h3 utility container */
   margin-bottom: 0;
 }
 
-.text-top { /* in row 3 */
-  margin: auto;
+.text-align {
+  text-align: center;
+}
+
+.width-33 { /* in row 3 */
   width: 33%;
-  text-align: center;
+  margin: auto;
 }
 
-.list {
-  text-align: center;
-}
-
-.locations { /* in row 3 */
-  font-size: 18px;
+.width-60 { /* in row 3 */
   width: 60%;
   margin: auto;
 }
 
-li.place { /* in row 3 */
+li.line-height-50 { /* in row 3 */
   line-height: 50px;
 }
 
-.row-fourth {
+.height-row-fourth {
   height: 200px;
+}
+
+.color-row-fourth {
   color: #666363;
 }
 
-.column-half { /* columns in row 4 */
-  width: 50%;
-}
-
-.button-container {
+.text-align-end {
   text-align: end;
 }
 
-.row-fifth {
+.style-row-fifth {
   height: 400px;
   background: rgb(48 48 48 / 82%);
   color: white;
@@ -191,45 +213,41 @@ li.place { /* in row 3 */
   align-items: flex-start;
 }
 
-.logo-white {
+.align-center {
   align-items: center;
 }
 
-.under-logo { /* row5 contact info */
+.padding-left-0 {
   padding-left: 0;
 }
 
-.row-5-company {
+.margin-top-0 {
   margin-top: 0;
 }
 
-.column-one-third {
+.padding-top-column {
   padding-top: 100px;
 }
 
-.half-company {
+.margin-left {
   margin-left: 150px;
 }
 
-.half-product {
+.margin-right {
   margin-right: 150px;
 }
 
-.text-size { /* for row 5 company and product */
+.text-style { /* for row 5 company and product */
   font-size: 20px;
   line-height: 40px;
 }
 
-.last {
+.style-row-last {
   height: 120px;
   color: #666363;
 }
 
-.last-row { /* for display li in inline */
+.display-inline { /* for display li in inline */
   display: inline;
   margin-right: 40px;
-}
-
-.last-ul-padding {
-  padding-left: 0;
 }
