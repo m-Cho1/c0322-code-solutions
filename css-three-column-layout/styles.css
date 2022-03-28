@@ -33,7 +33,7 @@ body {
   width: 100%;
 }
 
-.flex-basis-column {
+.column-half {
   flex-basis: 50%;
 }
 
