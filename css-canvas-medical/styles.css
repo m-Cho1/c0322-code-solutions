@@ -1,0 +1,253 @@
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row { /* utility container for rows */
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.padding { /* for rows */
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 5px;
+}
+
+.border-line {
+  border-bottom: solid 1px rgb(206 206 206);
+}
+
+.column-flex-grow-1 {
+  flex-grow: 1;
+}
+
+.column-direction {
+  flex-direction: row;
+}
+
+.height-second-row { /* second row */
+  height: 850px;
+}
+
+.width-logo-top { /* first row logo */
+  width: 180px;
+}
+
+.width-logo-bottom {
+  width: 140px;
+}
+
+.style-img { /* for second row img */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  position: relative;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.height-img-overlay { /* for img and overlay */
+  height: 650px;
+}
+
+.display-img {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 83%;
+  background: #00000047;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.font-style-navigate {
+  color: rgb(160 160 160);
+  font-weight: 500;
+}
+
+.padding-navigate {
+  padding: 25px;
+}
+
+.font-family-avenir {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+}
+
+button {
+  background-color: rgb(29 66 112);
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+}
+
+.padding-header-button {
+  padding: 15px 20px;
+}
+
+.font-size-contactus {
+  font-size: 16px;
+}
+
+.button-get-started-style {
+  padding: 20px 60px;
+  font-size: 20px;
+}
+
+button.position { /* button on the img */
+  position: absolute;
+  left: 218px;
+  bottom: -30px;
+}
+
+.position-text {
+  position: absolute;
+  bottom: 70px;
+  left: 195px;
+}
+
+.color-text {
+  color: white;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.text-weight-height { /* for utility container */
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.padding-left-txt-in-img {
+  padding-left: 20px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.style-row-third { /* for third row */
+  height: 500px;
+  justify-content: center;
+  flex-flow: row wrap;
+  background: #d3d3d321;
+  color: #666363;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.height-half {
+  height: 50%;
+}
+
+h3 { /* h3 utility container */
+  font-family: "Tiempos Headline", sans-serif;
+  font-size: 30px;
+  font-weight: 550;
+  margin-bottom: 0;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.width-33 { /* in row 3 */
+  width: 33%;
+  margin: auto;
+}
+
+.width-60 { /* in row 3 */
+  width: 60%;
+  margin: auto;
+}
+
+li.line-height-50 { /* in row 3 */
+  line-height: 50px;
+}
+
+.height-row-fourth {
+  height: 200px;
+}
+
+.color-row-fourth {
+  color: #666363;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.style-row-fifth {
+  height: 400px;
+  background: rgb(48 48 48 / 82%);
+  color: white;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+}
+
+.padding-top-column {
+  padding-top: 100px;
+}
+
+.margin-left {
+  margin-left: 150px;
+}
+
+.margin-right {
+  margin-right: 150px;
+}
+
+.text-style { /* for row 5 company and product */
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.style-row-last {
+  height: 120px;
+  color: #666363;
+}
+
+.display-inline { /* for display li in inline */
+  display: inline;
+  margin-right: 40px;
+}
