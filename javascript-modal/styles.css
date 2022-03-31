@@ -3,10 +3,6 @@ div.container {
   height: 100%;
 }
 
-.hidden {
-  display: none;
-}
-
 .popup-container {
   position: absolute;
   top: 50%;
@@ -26,9 +22,11 @@ div.container {
   border-radius: 5px;
   background-color: white;
   width: 550px;
-  height: 320px;
-  position: absolute;
-  top: 163px;
+  height: 260px;
+
+  /* position: absolute; */
+
+  /* top: 163px; */
   padding-top: 75px;
 }
 
@@ -62,4 +60,8 @@ h2 {
 
 button:hover {
   cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
