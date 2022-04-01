@@ -15,20 +15,23 @@
 span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
+  white-space: pre;
 }
 
 .color-correct {
-  border-bottom: solid 3px green;
   color: green;
 }
 
 .color-wrong {
-  border-bottom: solid 3px red;
   color: red;
 }
 
 .cursor {
   border-bottom: solid 3px black;
+}
+
+.cursor-wrong {
+  border-bottom: solid 3px red;
 }
 
 p {
