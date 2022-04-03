@@ -25,7 +25,6 @@ function pick(source, keys) {
   }
   return result;
 }
-
 // console.log('value of prop in for in loop: ', prop);
 // console.log('value in prop: ', source[prop]);
 // console.log('value of [keys]', [keys], 'value of keys', keys);

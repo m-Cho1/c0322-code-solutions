@@ -6,15 +6,18 @@
 // output: a new object containing all of the properties of source
 //         that ARE NOT listed in keys.
 
-// -
+// - create a variable 'omit' with empty object literal.
+// - go through the keys(prop) in the source object.
+// - if the key(prop) of source object is not included in the elements of the key array,
+//      = assign thr value of the key(prop) at source object to omit object
+// - return 'omit' as a return value.
 
-// function omit(source, keys) {
-//   var result = {};
-//   for (var prop in source) {
-//     // console.log('prop in source obj: ', prop);
-//     for (var i = 0; i < keys.length; i++) {
-//       // console.log('value of keys[i] ', keys[i]);
-//     }
-//   }
-//   return result;
-// }
+function omit(source, keys) {
+  var omit = {};
+  for (var prop in source) {
+    if (!keys.includes(prop)) { // if property name is not included (! operator) in the keys array
+      omit[prop] = source[prop]; // add property name of source object to omit object
+    }
+  }
+  return omit;
+}
