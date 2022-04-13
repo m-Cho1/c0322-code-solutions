@@ -1,5 +1,7 @@
 var $message = document.querySelector('.message');
 
-setTimeout(function () {
+var timeOut = setTimeout(timeoutFunc, 2000);
+function timeoutFunc() {
   $message.textContent = 'Hello there';
-}, 2000);
+  clearTimeout(timeOut);
+}
