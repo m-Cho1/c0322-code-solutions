@@ -1,0 +1,52 @@
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  justify-content: space-around;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.width80 {
+  width: 80%;
+}
+
+.width10 {
+  width: 10%;
+}
+
+.arrow {
+  font-size: 60px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.position-arrow {
+  display: flex;
+}
+
+.align-item {
+  align-self: center;
+  justify-content: center;
+}
+
+.style-row2 {
+  padding-top: 20px;
+}
