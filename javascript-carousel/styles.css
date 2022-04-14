@@ -1,9 +1,15 @@
+i {
+  cursor: pointer;
+  color: goldenrod;
+}
+
 .container {
   width: 70%;
   margin: auto;
 }
 
 .style {
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -22,15 +28,15 @@
   display: flex;
 }
 
-.width80 {
+.col-80 {
   width: 80%;
 }
 
-.width10 {
+.col-10 {
   width: 10%;
 }
 
-.arrow {
+.font-size {
   font-size: 60px;
 }
 
@@ -49,4 +55,12 @@
 
 .style-row2 {
   padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: rgb(255 196 0);
 }
