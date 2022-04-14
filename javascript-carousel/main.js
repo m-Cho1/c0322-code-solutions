@@ -49,19 +49,15 @@ function changeDotColor() {
   }
 }
 
-// function carousel() {
-//   currentImageIndex++;
-//   if (currentImageIndex === imageArr.length) {
-//     currentImageIndex = 0;
-//     // if currentImageIndex is equal to the length of the imgArr,
-//     // set the currentImageIndex value to 0
-//   }
-//   changeDotColor();
-//   console.log(currentImageIndex);
-//   // change image below:
-//   $image.getAttribute('src', imageArr[currentImageIndex]);
+function carousel() {
+  currentImageIndex++;
+  if (currentImageIndex === imageArr.length) {
+    currentImageIndex = 0;
+    // if currentImageIndex is equal to the length of the imgArr,
+    // set the currentImageIndex value to 0
+  }
+  changeDotColor();
+  $image.setAttribute('src', imageArr[currentImageIndex]);
+}
 
-// }
-
-// var interval = setInterval(carousel, 2000);
-// // carousel();
+setInterval(carousel, 2000);
