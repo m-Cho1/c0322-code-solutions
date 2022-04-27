@@ -1,0 +1,66 @@
+i {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.style {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.row1 {
+  justify-content: space-around;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.col-80 {
+  width: 80%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.font-size {
+  font-size: 60px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.position-arrow {
+  display: flex;
+}
+
+.align-item {
+  align-self: center;
+  justify-content: center;
+}
+
+.style-row2 {
+  padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: rgb(255 196 0);
+}
